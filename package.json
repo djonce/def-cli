@@ -1,0 +1,26 @@
+{
+  "name": "@jonce/def-cli",
+  "version": "0.0.1",
+  "description": "开发工具集合",
+  "main": "index.js",
+  "bin": {
+    "def": "bin/index.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djonce/def-cli.git"
+  },
+  "keywords": [],
+  "author": "jonce",
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.16.0",
+    "chalk": "^4.1.2",
+    "commander": "^5.1.0",
+    "shelljs": "^0.8.4",
+    "single-line-log": "^1.1.2"
+  }
+}

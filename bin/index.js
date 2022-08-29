@@ -20,8 +20,6 @@ const run = require('../src/publish.js')
 
   console.log(chalk.red(`${program.args}`))
 
-  console.log(process.env)
-
   if (program.args.includes('-d')) {
     run('development')
   } else if (program.args.includes('-o')) {

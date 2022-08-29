@@ -1,6 +1,6 @@
 {
   "name": "@jonce/def-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "开发工具集合",
   "main": "index.js",
   "bin": {

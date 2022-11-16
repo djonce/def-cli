@@ -22,5 +22,11 @@
     "commander": "^5.1.0",
     "shelljs": "^0.8.4",
     "single-line-log": "^1.1.2"
-  }
+  },
+  "devDependencies": {
+    "lerna": "^6.0.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

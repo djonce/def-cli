@@ -1,0 +1,29 @@
+{
+  "name": "@jonce/def-cli-core",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "泽柏 <djonce@qq.com>",
+  "homepage": "https://github.com/djonce/def-cli#readme",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djonce/def-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/djonce/def-cli/issues"
+  }
+}

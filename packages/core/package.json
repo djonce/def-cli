@@ -1,6 +1,6 @@
 {
   "name": "@jonce/core",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "> TODO: description",
   "author": "泽柏 <djonce@qq.com>",
   "homepage": "https://github.com/djonce/def-cli#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/djonce/def-cli/issues"
   },
   "dependencies": {
-    "@jonce/utils": "^0.0.6"
+    "@jonce/utils": "^0.0.7"
   },
   "gitHead": "f1cc5a0ccc8c06c8d178f3d1a4cfde38bad165ac"
 }

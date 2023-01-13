@@ -1,0 +1,36 @@
+{
+  "name": "@jonce/def-cli",
+  "version": "0.0.2",
+  "description": "> TODO: description",
+  "keywords": [
+    "脚手架"
+  ],
+  "author": "泽柏 <djonce@qq.com>",
+  "homepage": "https://github.com/djonce/def-cli#readme",
+  "license": "ISC",
+  "main": "lib/def-cli.js",
+  "bin": "bin/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djonce/def-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/def-cli.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/djonce/def-cli/issues"
+  },
+  "dependencies": {
+    "@jonce/core": "^0.0.2"
+  }
+}

@@ -1,11 +1,15 @@
 {
-  "name": "@jonce/core",
-  "version": "0.0.1",
+  "name": "@jonce/def-cli",
+  "version": "0.1.0",
   "description": "> TODO: description",
+  "keywords": [
+    "脚手架"
+  ],
   "author": "泽柏 <djonce@qq.com>",
   "homepage": "https://github.com/djonce/def-cli#readme",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/def-cli.js",
+  "bin": "bin/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,12 +25,12 @@
     "url": "git+https://github.com/djonce/def-cli.git"
   },
   "scripts": {
-    "test": "node ./__tests__/core.test.js"
+    "test": "node ./__tests__/def-cli.test.js"
   },
   "bugs": {
     "url": "https://github.com/djonce/def-cli/issues"
   },
   "dependencies": {
-    "@jonce/utils": "^0.0.1"
+    "@jonce/core": "^0.0.1"
   }
 }

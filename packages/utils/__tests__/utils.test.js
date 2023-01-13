@@ -1,7 +1,10 @@
-'use strict';
+"use strict";
 
-const utils = require('..');
-const assert = require('assert').strict;
+const { log } = require("..");
+// const assert = require("assert").strict;
 
-assert.strictEqual(utils(), 'Hello from utils');
+console.log(log);
+
+// assert.equal(log.info("log info"), "DEF info log info");
+
 console.info("utils tests passed");

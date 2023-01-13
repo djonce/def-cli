@@ -1,11 +1,11 @@
 {
-  "name": "@jonce/core",
+  "name": "@jonce/create",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "泽柏 <djonce@qq.com>",
   "homepage": "https://github.com/djonce/def-cli#readme",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/create.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,19 +14,16 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
+    "registry": "https://packages.aliyun.com/62d13efe3e81781f3ad245ea/npm/npm-registry/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/djonce/def-cli.git"
   },
   "scripts": {
-    "test": "node ./__tests__/core.test.js"
+    "test": "node ./__tests__/create.test.js"
   },
   "bugs": {
     "url": "https://github.com/djonce/def-cli/issues"
-  },
-  "dependencies": {
-    "@jonce/utils": "^0.0.1"
   }
 }

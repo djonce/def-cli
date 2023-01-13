@@ -1,6 +1,6 @@
 {
   "name": "@jonce/utils",
-  "version": "0.0.4",
+  "version": "0.0.3",
   "description": "> TODO: description",
   "author": "泽柏 <djonce@qq.com>",
   "homepage": "https://github.com/djonce/def-cli#readme",
@@ -31,5 +31,5 @@
     "cross-spawn": "^7.0.3",
     "npmlog": "^7.0.1"
   },
-  "gitHead": "08981d40720c147a86268b589f958d5e65715c0e"
+  "gitHead": "183687e24d79fa33f01b8fcad951db9938c32d1b"
 }

@@ -1,7 +1,8 @@
-'use strict';
+"use strict";
 
 module.exports = core;
 
 function core() {
-    return "Hello from core";
+  console.log("test publish");
+  return "Hello from core";
 }

@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.com/s",
+    "registry": "https://registry.npmjs.com/",
     "access": "public"
   },
   "repository": {
@@ -32,5 +32,5 @@
     "cross-spawn": "^7.0.3",
     "npmlog": "^7.0.1"
   },
-  "gitHead": "f1cc5a0ccc8c06c8d178f3d1a4cfde38bad165ac"
+  "gitHead": "7a116d0df8dab02a22934a400f313ea04cf3aaac"
 }

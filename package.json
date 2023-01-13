@@ -1,6 +1,4 @@
 {
-  "name": "@jonce/def-cli",
-  "version": "0.0.3",
   "description": "开发工具集合",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"

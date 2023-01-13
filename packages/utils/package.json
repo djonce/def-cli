@@ -1,6 +1,6 @@
 {
   "name": "@jonce/utils",
-  "version": "0.0.2",
+  "version": "0.0.10",
   "description": "> TODO: description",
   "author": "泽柏 <djonce@qq.com>",
   "homepage": "https://github.com/djonce/def-cli#readme",
@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
+    "registry": "https://registry.npmjs.com/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -30,5 +31,6 @@
     "chalk": "^5.1.2",
     "cross-spawn": "^7.0.3",
     "npmlog": "^7.0.1"
-  }
+  },
+  "gitHead": "7a116d0df8dab02a22934a400f313ea04cf3aaac"
 }

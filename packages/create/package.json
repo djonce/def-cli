@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://packages.aliyun.com/62d13efe3e81781f3ad245ea/npm/npm-registry/"
+    "registry": "https://registry.npmjs.com/"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/djonce/def-cli/issues"
   },
-  "gitHead": "6f65b51d81e620b71c381e53954891c00bde139c"
+  "gitHead": "f1cc5a0ccc8c06c8d178f3d1a4cfde38bad165ac"
 }

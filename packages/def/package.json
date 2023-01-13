@@ -1,6 +1,6 @@
 {
   "name": "@jonce/def-cli",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "> TODO: description",
   "keywords": [
     "脚手架"
@@ -34,7 +34,7 @@
     "url": "https://github.com/djonce/def-cli/issues"
   },
   "dependencies": {
-    "@jonce/core": "^0.0.10"
+    "@jonce/core": "^0.0.11"
   },
   "gitHead": "7a116d0df8dab02a22934a400f313ea04cf3aaac"
 }

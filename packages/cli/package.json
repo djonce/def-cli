@@ -8,7 +8,7 @@
   "author": "泽柏 <djonce@qq.com>",
   "homepage": "https://github.com/djonce/def-cli#readme",
   "license": "ISC",
-  "main": "lib/def-cli.js",
+  "main": "lib/cli.js",
   "bin": {
     "def": "bin/index.js"
   },
@@ -28,13 +28,28 @@
     "url": "git+https://github.com/djonce/def-cli.git"
   },
   "scripts": {
-    "test": "node ./__tests__/def-cli.test.js"
+    "test": "node ./__tests__/def-cli.test.js",
+    "build": "webpack",
+    "dev": "webpack -w"
   },
   "bugs": {
     "url": "https://github.com/djonce/def-cli/issues"
   },
+  "engines": {
+    "node": "14.0.0"
+  },
   "dependencies": {
-    "@jonce/core": "^0.0.11"
+    "@jonce/core": "^0.0.11",
+    "@jonce/utils": "^0.0.11",
+    "colors": "^1.4.0",
+    "commander": "^10.0.0",
+    "dotenv": "^16.0.3",
+    "import-local": "^3.1.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.8"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0"
   },
   "gitHead": "7a116d0df8dab02a22934a400f313ea04cf3aaac"
 }
